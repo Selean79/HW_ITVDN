@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+
+<body>
+    <pre>
+        Задание:
+        Поменяйте сценарий таким образом, чтобы обход данных массива происходил с помощью цикла for...of
+    </pre>
+    <script>
+        let values = [10, 20, 4, 6, 11, 9, 125, 1, 8, 0, 3];
+        let max = Number.MIN_VALUE;
+
+        for (const elementArray of values) {
+            const element = elementArray;
+            if(element > max)
+            {
+                max = element;
+            }
+        }
+
+        console.log("Максимальное значение массива - " + max);
+    </script>
+</body>
+
+</html>

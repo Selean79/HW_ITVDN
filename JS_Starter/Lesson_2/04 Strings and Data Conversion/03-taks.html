@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+
+<body>
+    <pre>
+        Задание:
+        1) запросите у пользоватля сколько он хочет купить единиц товара
+        2) выведите на экран какую сумму должен внести пользователь с учетом количества покупаемых единиц
+        3) выведите на экнан сколько единиц товара останется на складе после покупки
+    </pre>
+
+    <script>
+        let num = +prompt("Введите количество товара, которое вы хотите приобрести:");
+
+        let productPrice = 101.5; // цена товара
+        let productQuantity = 50;  // количество единиц товара на складе
+        alert(`Вы должны внести ${productPrice * num} тугриков за покупку ${num} шт. товара\nНа складе останется ${productQuantity - num} шт. товара.`);
+    </script>
+</body>
+
+</html>
+
