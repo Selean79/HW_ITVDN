@@ -9,36 +9,8 @@
 </head>
 
 <body>
-    <script>
-        /*
-        Задание:
-        Перепишите код, таким образом, чтобы counter1 и counter2 работали со своим значением счетчика.
-        Используйте для этого замыкание.
-        */
-        let counter = 0;
+    <script src="js/02-task.js">
 
-        function makeCounter() {
-            return function () {
-                return counter++;
-            }
-        }
-
-        let counter1 = makeCounter();
-        let counter2 = makeCounter();
-
-        console.log("counter1");
-
-        console.log(counter1());
-        console.log(counter1());
-        console.log(counter1());
-        console.log(counter1());
-
-        console.log("counter2");
-
-        console.log(counter2());
-        console.log(counter2());
-        console.log(counter2());
-        console.log(counter2());
     </script>
 </body>
 
