@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body>
+<pre>
+        Задание:
+        Доработайте сценарий. Если пользователь заказывает товаров больше, чем есть на складе - сообщите ему об этом. Если пользователь заказывает
+        количество товаров, не привышающее количество на складе - расчитайте общую стоимость заказа.
+    </pre>
+<script>
+    let productPrice = 101.5; // цена товара
+    let productQuantity = 50;  // количество единиц товара на складе
+    let totalSum;
+    let count = +prompt("Сколько единиц товара Вы хотите приобрести?", "1");
+    if (count > 50) {
+        alert(`Такого количества товара на скледе нет!\nНа складе ${productQuantity}`);
+    } else {
+        totalSum = count * productPrice;
+        let leftInStorage = productQuantity - count;
+        alert("Общая стоимость " + totalSum);
+        alert("Количество товара останется на складе после покупки: " + leftInStorage);
+    }
+</script>
+</body>
+</html>

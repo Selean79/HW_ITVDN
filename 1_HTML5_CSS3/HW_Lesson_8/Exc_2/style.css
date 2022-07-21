@@ -1,0 +1,58 @@
+form{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.main_container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display:    block;
+    width: 100px;
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 32px;
+}
+
+.info label:nth-child(odd){
+    font-weight: bold;
+}
+
+.address label:last-child{
+    font-weight: bold;
+}
+
+input, select{
+    width: 200px;
+    margin-bottom: 20px;
+    height: 22px;
+}
+
+select{
+    width: 208px;
+    margin-bottom: 20px;
+    height: 29px;
+}
+
+
+fieldset{
+    border: none;
+    border-top: 1px dotted black;
+    width: 400px;
+}
+
+legend{
+    margin-left: 50px;
+    padding: 0 30px 0 30px;
+    font-weight: bold;
+    color: blue;
+}
+

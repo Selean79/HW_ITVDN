@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* ----------------------- Left side -------------------------*/
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_side {
+    width: 44%;
+    background-image: url(../img/bg_leftside.png);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10%;
+    border: 8px solid white;
+    border-radius: 8px;
+}
+
+.triangle img {
+    width: 40px;
+    height: 40px;
+    border-width: 0;
+}
+
+.triangle {
+    position: relative;
+    left: 160px;
+    top: 96px;
+}
+
+.header {
+    padding-left: 20%;
+    font-family: Monstserrat, serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.contact_container, .exp_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact img {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 20%;
+}
+
+.contact p {
+    padding-right: 25%;
+    font-size: 0.9em;
+    text-align: left;
+    color: white;
+}
+
+.education p {
+    margin: 0;
+    padding: 2% 0 0;
+}
+
+.education div {
+    padding-bottom: 12%;
+}
+
+.education, .experience {
+    font-size: 0.8em;
+    text-align: left;
+    color: white;
+    margin-left: 20%;
+    /*padding-bottom: 10%;*/
+}
+
+p.cyber_system {
+    font-size: 1.2em;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+.exp_container input {
+    margin-right: 17%;
+}
+
+
+/* ----------------------- Right side -------------------------*/
+
+.right-side p {
+    padding: 0;
+    margin: 0;
+}
+
+.right-side {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.top-bg {
+    width: 600px;
+    height: 200px;
+    background-color: #F3F3F2;
+    border-radius: 0 0 366px 73px / 0 0 118px 23px;
+    margin-bottom: 15%;
+}
+
+.right-side-header .name {
+    font-size: 3.2em;
+    padding-top: 15%;
+    padding-left: 16%;
+}
+
+.right-side-header .title {
+    margin: 0;
+    color: #8E9092;
+    padding-left: 16%;
+}
+
+.content-right-side {
+    width: 71%;
+    font-family: Montserrat, sans-serif;
+    padding-left: 16%;
+}
+
+.goal {
+    border-bottom: 1px solid #C5C7C9;
+    margin-bottom: 10%;
+}
+
+.goal p:last-child {
+    font-size: 0.9em;
+    padding-bottom: 8%;
+}
+
+.article-header {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4C5CA9;
+}
+
+
+p.article-header {
+    padding-bottom: 8%;
+}
+
+
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    font-size: 0.7em;
+    color: #4C5CA9;
+}
+
+p.company {
+    font-size: 0.8em;
+    color: black;
+    padding-bottom: 6%;
+}
+
+p.text {
+    font-size: 0.8em;
+    margin-bottom: 10%;
+}
+
+.bottom-bg {
+    width: 440px;
+    height: 150px;
+    margin-left: 15%;
+    background-color: #F3F3F2;
+    border-radius: 616px 0 0 193px / 302px 0 0 0;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 32%;
+    padding-top: 6%;
+}
+
+.social-networks img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.social-networks p {
+    font-size: 0.7em;
+    padding-right: 5%;
+}
+
+p.np {
+    margin: 10% 0;
+}

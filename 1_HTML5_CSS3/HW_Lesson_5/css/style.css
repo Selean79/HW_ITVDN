@@ -1,0 +1,23 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+    margin: 3px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+.footer{
+    clear: left;
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Arial Black";
+}

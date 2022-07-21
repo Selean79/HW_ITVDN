@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" enctype="text/plain">
+        <fieldset>
+            <legend>Personal information</legend>
+            <div class="main_container">
+                <div class="container ">
+                    <label for="fname">* First name:</label>
+                    <label for="mname">Middle name:</label>
+                    <label for="lname"> * Last name:</label>
+                    
+                </div>
+                <div class="container">
+                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="mname" id="mname">
+                    <input type="text" name="lname" id="lname">
+                </div>
+            </div>            
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <div class="main_container">
+                <div class="container address">
+                    <label for="address">Address:</label>
+                    <label for="city_town">City or Town:</label>
+                    <label for="state">State:</label>
+                    <label for="zip"> * Zip code:</label>
+                    
+                </div>
+                <div class="container">
+                    <input type="text" name="address" id="address">
+                    <input type="text" name="city_town" id="city_town">
+                    <select name="state" id="state">
+                        <option value="#" >Choose State</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Iq">Idaho</option>
+                        <option value="Montana">Montana</option>    
+                    </select>
+                    <input type="text" name="zip" id="zip">
+                </div>
+            </div>            
+        </fieldset>
+    </form>
+</body>
+</html>

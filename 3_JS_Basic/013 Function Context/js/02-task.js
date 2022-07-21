@@ -16,12 +16,13 @@ let users = [
 let i = 0;
 
 function showWithDelay(users) {
-    setTimeout(showWithDelay, 1000, users);   // Timeout version
+    // setTimeout(showWithDelay, 1000, users);   // Timeout version
     if (i < users.length) {
         console.log(users[i]);
         i++;
     }
 }
+
 
 // setInterval(showWithDelay, 1000, users, i);
  setTimeout(showWithDelay, 1000, users, i); // Timeout version

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        div {
+            background-color: lightblue;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Задание: Закомментриуйте те строки сценария, которые не являются инструкциями, а описанием к инструкциям.
+    </p>
+    <div>
+        Hello world
+    </div>
+    <script>
+      //  создаем переменную с именем element и присваиваем ей первый HTML элемент div, который будет найдет в документе.
+        let element = document.querySelector("div");
+        
+    /*    "вешаем" обработчик на событие click (клик левой клавишей мыши).
+        При клике по HTML элементу, находящемуся в переменной element будет запускаться функция-обработчик.
+    */
+        element.addEventListener("click", function() {
+            element.innerText = "Привет мир!";  //для HTML элемента, который находится в переменной element меняем значение текста, который находится в элементе.
+        });
+    </script>
+</body>
+</html>
